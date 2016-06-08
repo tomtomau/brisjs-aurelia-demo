@@ -1,0 +1,18 @@
+<template>
+    <require from="./value-converter/loud.js"></require>
+    <require from="./list-component"></require>
+
+    <section>
+        <h1>${heading}</h1>
+
+        <list-component items.bind="items" ref="listComponent"></list-component>
+
+        <hr>
+
+        <input type="text" value.bind="item" ref="myEl">
+
+        <a href="javascript:void(0)" class="btn btn-primary"
+           click.delegate="addItem()"
+        >Add Item</a>
+    </section>
+</template>

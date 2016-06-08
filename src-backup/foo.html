@@ -1,0 +1,16 @@
+<template>
+    <require from="./value-converters/loud"></require>
+    <require from="./value-converters/sort"></require>
+
+    <section>
+        <h1>${heading}</h1>
+
+        <h3>Shopping List - ${items.length} items</h3>
+        <ul>
+            <li repeat.for="item of items | sort">${item | loud}</li>
+        </ul>
+
+        <input type="text" value.bind="newItemText" ref="inputEl">
+        <a href="javascript:void(0)" class="btn btn-primary" click.delegate="addItem()">Add Item</a>
+    </section>
+</template>

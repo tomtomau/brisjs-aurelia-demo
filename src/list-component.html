@@ -1,0 +1,9 @@
+<template>
+    <require from="./value-converter/sort.js"></require>
+
+    <ul>
+        <li repeat.for="item of items | sort">
+            ${item}
+        </li>
+    </ul>
+</template>

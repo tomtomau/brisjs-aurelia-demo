@@ -1,0 +1,11 @@
+<template>
+    <require from="../value-converters/loud.js"></require>
+    <h4>Item List</h4>
+
+    <ul>
+        <li repeat.for="item of items">
+            <span>${item.name | loud}</span>
+            <a href="javascript:void(0)" class="btn btn-warning" click.delegate="deleteItem(item)">x</a>
+        </li>
+    </ul>
+</template>
