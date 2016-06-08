@@ -1,6 +1,6 @@
 # brisjs-aurelia-demo
 
-This is a demo application forked from the [https://github.com/aurelia/skeleton-navigation](aurelia/skeleton-navigation) for a demo at [BrisJS](http://brisjs.com/)
+This is a demo application forked from the [https://github.com/aurelia/skeleton-navigation](aurelia/skeleton-navigation) for a demo at [BrisJS](http://brisjs.com/) - slides are [here](http://slides.com/tomnewbyau/aurelia) for [BrisJS/meetups#121](https://github.com/BrisJS/meetups/issues/121)
 
 ## Running The App
 
